@@ -308,7 +308,7 @@ h6,
 	letter-spacing: -0.0415625em;
 	line-height: 1.25;
 	margin: 3.5rem 0 2rem;
-	font-style: Trebuchet;
+	font-style: oblique;
 }
 
 h1,
@@ -316,6 +316,7 @@ h1,
 	font-size: 3.6rem;
 	font-weight: 800;
 	line-height: 1.138888889;
+	
 }
 
 h2,
@@ -354,7 +355,7 @@ em,
 i,
 q,
 dfn {
-	font-style: italic;
+	font-style:  oblique;
 }
 
 em em,
@@ -367,11 +368,11 @@ cite i {
 }
 
 big {
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 small {
-	font-size: 0.75em;
+	font-size: 0.85em;
 }
 
 b,
@@ -456,7 +457,7 @@ hr.styled-separator::after {
 }
 
 a {
-	color: #cd2653;
+	color: #4d0d8ac5;
 	text-decoration: underline;
 }
 
@@ -474,27 +475,27 @@ ol {
 }
 
 ul {
-	list-style: disc;
+	list-style: lower-roman;
 }
 
 ul ul {
-	list-style: circle;
+	list-style: upper-roman;
 }
 
 ul ul ul {
-	list-style: square;
+	list-style: lower-latin;
 }
 
 ol {
-	list-style: decimal;
+	list-style: upper-latin;
 }
 
 ol ol {
-	list-style: lower-alpha;
+	list-style: circle;
 }
 
 ol ol ol {
-	list-style: lower-roman;
+	list-style: georgian;
 }
 
 li {
