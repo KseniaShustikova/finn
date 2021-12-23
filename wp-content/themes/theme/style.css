@@ -511,7 +511,7 @@ li > ol {
 .reset-list-style,
 .reset-list-style ul,
 .reset-list-style ol {
-	list-style: none;
+	list-style: lower-roman;
 	margin: 0;
 }
 
@@ -540,7 +540,7 @@ dd + dt {
 /* Quotes ------------------------------------ */
 
 blockquote {
-	border-color: #cd2653;
+	border-color: #8b2ada;
 	border-style: solid;
 
 	/*rtl:ignore*/
@@ -674,7 +674,7 @@ iframe.instagram-media {
 /* Inputs ------------------------------------ */
 
 fieldset {
-	border: 0.2rem solid #dcd7ca;
+	border: 0.2rem solid #3344dd81;
 	padding: 2rem;
 }
 
@@ -708,7 +708,7 @@ input[type="checkbox"] {
 	width: 1.5rem;
 	min-width: 1.5rem;
 	height: 1.5rem;
-	background: #fff;
+	background: rgb(150, 143, 211);
 	border-radius: 0;
 	border-style: solid;
 	border-width: 0.1rem;
@@ -4461,7 +4461,7 @@ ul.footer-social li {
 }
 
 .footer-social a {
-	background-color: #cd2653;
+	background-color: #8226cd;
 	height: 3.6rem;
 	width: 3.6rem;
 }
@@ -4898,6 +4898,7 @@ a.to-the-top > * {
 	.site-title {
 		font-size: 2.4rem;
 		font-weight: 700;
+		font-style: italic;
 	}
 
 	.site-description {
