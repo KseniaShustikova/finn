@@ -1095,7 +1095,7 @@ button.toggle {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: #cd2653;
+	color: #6e26cd;
 }
 
 /* BACKGROUND COLOR */
@@ -1103,7 +1103,7 @@ button.toggle {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: #cd2653;
+	background-color: #6e26cd;
 }
 
 /* BORDER COLOR */
@@ -1111,14 +1111,14 @@ button.toggle {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: #cd2653;
+	border-color: #6e26cd;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: #cd2653;
+	fill: #6e26cd;
 }
 
 .fill-children-current-color,
@@ -1308,9 +1308,9 @@ ul.social-icons li {
 
 .social-icons a {
 	align-items: center;
-	background: #cd2653;
+	background: #39067c;
 	border-radius: 50%;
-	color: #fff;
+	color: rgb(177, 166, 226);
 	display: flex;
 	height: 4.4rem;
 	justify-content: center;
@@ -1356,7 +1356,7 @@ ul.social-icons li {
 
 
 #site-header {
-	background: #fff;
+	background: rgb(178, 167, 243);
 	position: relative;
 }
 
@@ -1407,7 +1407,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 
 .site-description {
 	margin-top: 1rem;
-	color: #6d6d6d;
+	color: #a955ee;
 	font-size: 1.8rem;
 	font-weight: 500;
 	display: none;
